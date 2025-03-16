@@ -7,6 +7,7 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> --}}
     <title>ATLAS | {{ $title }}</title>
 </head>
 <body class="h-full"> 
@@ -24,7 +25,7 @@
     <main>  
       <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <div class="shrink-0 flex items-start mt-8">  
-          <img src="img/kota-lama1.jpg" alt="kota-lama" class="w-96 float-left rounded-lg">
+          <img src="{{ asset('img/kota-lama1.jpg') }}" alt="kota-lama" class="w-96 float-left rounded-lg">
           <p class="text-justify ml-4 text-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem reprehenderit optio. Maiores distinctio earum placeat repellendus quae architecto mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima, expedita repellat, commodi ducimus sed animi id ab dolore harum explicabo sunt, dolorum doloremque nobis quo? Ducimus soluta voluptatibus asperiores adipisci vitae eius. Atque quas ipsa ea quaerat consectetur cumque earum dicta, adipisci, sint est, neque sapiente. Delectus, quis doloribus.</p>
         </div>
         <div class="mt-10">
@@ -46,7 +47,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <a href="/home/gereja">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full h-48 object-cover" src="img/kota-lama1.jpg" alt="Nama Card">
+                <img class="w-full h-48 object-cover" src="{{ asset('img/kota-lama1.jpg') }}" alt="Nama Card">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Nama Card 1</div>
                     <p class="text-gray-700 text-base">
@@ -56,7 +57,7 @@
             </div>
           </a>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full h-48 object-cover" src="img/kota-lama1.jpg" alt="Nama Card">
+                <img class="w-full h-48 object-cover" src="{{ asset('img/kota-lama1.jpg') }}" alt="Nama Card">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Nama Card 2</div>
                     <p class="text-gray-700 text-base">
@@ -65,7 +66,7 @@
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full h-48 object-cover" src="img/kota-lama1.jpg" alt="Nama Card">
+                <img class="w-full h-48 object-cover" src="{{ asset('img/kota-lama1.jpg') }}" alt="Nama Card">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Nama Card 3</div>
                     <p class="text-gray-700 text-base">
@@ -74,7 +75,7 @@
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full h-48 object-cover" src="img/kota-lama1.jpg" alt="Nama Card">
+                <img class="w-full h-48 object-cover" src="{{ asset('img/kota-lama1.jpg') }}" alt="Nama Card">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Nama Card 4</div>
                     <p class="text-gray-700 text-base">
@@ -83,7 +84,7 @@
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full h-48 object-cover" src="img/kota-lama1.jpg" alt="Nama Card">
+                <img class="w-full h-48 object-cover" src="{{ asset('img/kota-lama1.jpg') }}" alt="Nama Card">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Nama Card 5</div>
                     <p class="text-gray-700 text-base">
@@ -92,7 +93,7 @@
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full h-48 object-cover" src="img/kota-lama1.jpg" alt="Nama Card">
+                <img class="w-full h-48 object-cover" src="{{ asset('img/kota-lama1.jpg') }}" alt="Nama Card">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Nama Card 6</div>
                     <p class="text-gray-700 text-base">
